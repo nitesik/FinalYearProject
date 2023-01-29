@@ -9,7 +9,7 @@ function Exercises({ navigation }) {
       <View>
         <View style={{height: "3%"}}/>
         <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise 1" onPress={() => navigation.navigate("Exercise 1")} ></Button>
-        <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise 2"></Button>
+        <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise 2" onPress={() => navigation.navigate("Exercise 2")}></Button>
         <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise 3"></Button>
         <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise 4"></Button>
         <Button buttonStyle={{ backgroundColor: 'rgba(39, 39, 39, 1)' }} containerStyle = {styles.button} title="Exercise "></Button>

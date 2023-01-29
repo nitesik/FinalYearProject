@@ -6,7 +6,8 @@ import Home from "./routes/Home";
 import Scan from './screens/Scan';
 import Exercises from './screens/Exercises';
 import About from './screens/About';
-import Exercise_1 from "./screens/ExerciseList/Exercise_1"
+import Exercise_1 from "./screens/ExerciseList/Exercise_1";
+import Exercise_2 from "./screens/ExerciseList/Exercise_2";
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
           title: "About Dyslexia & This App"
         })} />
         <Stack.Screen name="Exercise 1" component={Exercise_1} />
+        <Stack.Screen name="Exercise 2" component={Exercise_2} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import globalStyles from "../../style/globalStyles";
 import { AntDesign } from '@expo/vector-icons';
-import { Card } from "@rneui/base"
+import { Card, color } from "@rneui/base"
 
 function Exercise_1() {
 
@@ -136,10 +136,10 @@ const styles = StyleSheet.create({
     width: "101%"
 },
 letter: {
-  padding: 8,
-  borderWidth: 2,
-  borderColor: "black",
-  borderStyle: "dashed",
+    padding: 8,
+    borderWidth: 2,
+    borderColor: "black",
+    borderStyle: "dashed",
     marginHorizontal: 2,
     paddingHorizontal: 12,
     borderRadius: 5,
